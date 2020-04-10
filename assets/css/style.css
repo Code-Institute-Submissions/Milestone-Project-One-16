@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto:100,200,300.400,500,600,700|Nanum+Pen+Script|Oswald|Lobster|Fredericka+the+Great");
+@import url("https://fonts.googleapis.com/css?family=Noto:100,200,300.400,500,600,700|Nanum+Pen+Script|Oswald:100,200,300.400,500,600,700|Lobster|Fredericka+the+Great");
 
 body{
     background-image: url("../images/hero.jpg");
@@ -10,7 +10,7 @@ body{
     background-attachment: fixed;
     
 } 
-
+/*----------------------------------------------Header--*/
 header {
 	background-color: #33dfa5;
 	width: 100%;
@@ -34,6 +34,7 @@ header {
 header a h1 span{
     font-size: 180%;
     color: #455272;
+    text-shadow: 1px 1px 3px #000000;
     
 }
 
@@ -65,4 +66,33 @@ header a h1 span{
 
 #menu li a:hover {
     color: #106d2c;
+}
+
+/*-------------------------------------------------------------Title info--*/
+
+.title{
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    margin: 200px 0px 0px;
+    font-size: 400%;
+    font-family: 'Lobster', sans-serif;
+    color: #455272;
+    text-shadow: 2px 3px 5px #000000;
+}
+
+.title-info{
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    margin: 40px 5px;
+    padding: 0px 10px;
+    left: 368px;
+    font-size: 200%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #2dc794;
+    text-shadow: 2px 3px 5px #000000;
 }
