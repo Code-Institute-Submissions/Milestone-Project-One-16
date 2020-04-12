@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Noto:100,200,300.400,500,600,700|Nanum+Pen+Script|Oswald:100,200,300.400,500,600,700|Lobster|Fredericka+the+Great");
 
-body{
-    background-image: url("../images/hero.jpg");
+/*-----------------------------------------------------parallax*/
+.parallax{
+    background-image: url("../images/misc/hero.jpg");
     background-repeat: no-repeat;
-    height: 800px;
+    min-height: 100%;
     width: 100%;
     background-position-x: right -450px;
     background-position-y: -80px;
@@ -102,20 +103,141 @@ section div h1{
     color: #2dc794;
     text-shadow: 2px 3px 5px #000000;
 }
-
+/*----------------------------------------------------------champions background--*/
+.champion-img{
+    background-image: url("../images/misc/champions.jpg");
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
 /*--------------------------------------------------------------Champions header--*/
 
-.champion-box{
+.champion-title{
+
     background-color: #f56b6b;
+    margin-bottom: 5%;
 }
 
 .champion{
+
     padding: 5% 0px;
     text-align: center;
     font-family: 'Lobster', sans-serif;
     font-size: 400%;
     font-weight: 600;
     color: #455272;
+}
+
+/*--------------------------------------------------------------Champions descriptions--*/
+
+.list-inline-item{
+
+    padding-left: 3px;
+    padding-right: 3px;
+    max-width: 30%;
+}
+
+.champion-box{
+
+    background-color: #c5628b;
+    height: 250px;
+    margin-bottom: 40px;
+    margin-left: 25%;
+    padding: 10px 10px;
+
+}
+
+.avatar-price{
+
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: solid #000000;
+
+}
+
+.ahri-avatar{
+
+    height:60px;
+    width:60px;
+    
+}
+
+.origin-class{
+
+    padding-left: 5px;
+    margin-right: 70px;
+}
+
+.origin-class p{
+
+    margin-bottom: 2px;
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.price p{
+
+    font-weight: 600;
+    font-size: 110%
+    
+}
+
+.coin{
+
+    width: 30px;
+    height: 30px;
+}
+
+.avatar-description{
+
+    display: flex;
+}
+
+.ability-box{
+
+    margin-top: 10px;
+    
+}
+
+.ability-description-box{
+
+    margin-left: 5px;
+    margin-top: 5px;
+
+}
+
+.ability-description-box h6{
+
+    font-weight: 700;
+}
+
+.ability{
+
+    width: 60px;
+    height: 60px;
+}
+
+.ability-description{
+
+    font-size: 90%;
+    line-height: 15px;
+    font-weight: 500;
+}
+
+/*--------------------------------------------------------------origin and class colours--*/
+
+.star-guardian{
+
+    color: #ddd348
+
+}
+
+.sourcerer{
+
+    color: #493a55
 }
 /*-----------------------------------------------------Phone media query--*/
 
@@ -136,6 +258,10 @@ section div h1{
     .title-info{
         margin: 20px 5px;
     }
+
+.champion-box{
+    margin:5%;
+}
 }
 
 /*-----------------------------------------------------tablet media query--*/
@@ -158,6 +284,16 @@ section div h1{
         margin-left: 10px;
         font-size: 100%;
     }
+    
+.champion-box{
+    margin-left:5%;
+    margin-right:0;
+    max-width: 90%;
+}
+
+.list-inline-item{
+    max-width: 48%;
+}
 }
 
 
@@ -169,5 +305,9 @@ section div h1{
         margin-left: 5%;
         font-size: 85%
     }
+
+.list-inline-item{
+    max-width: 48%;
+}
 
 }

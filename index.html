@@ -11,50 +11,182 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md">
-        <a href="/" class="navbar-brand">
-         <h2 id="tft">T<span class="info">in</span>F<span class="info">o</span>T</h2>
-        </a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
+    <div class="parallax">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <a href="/" class="navbar-brand">
+            <h2 id="tft">T<span class="info">in</span>F<span class="info">o</span>T</h2>
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav" id="navnav">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="">Champions</a></li>
-                <li class="nav-item mr-1"><a class="nav-link" href="">Items</a></li>
-                <li class="nav-item mr-1"><a class="nav-link" href="">Patch Notes</a></li>               
-            </ul>
-        </div>
-    </nav>
-    <section>
-        <div class="title">
-            <h1>TeamFightTactics</h1>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="title-info text-center">
-                    <p>Choose your champions and collect those items in Riot Games' League of Legends themed Auto chess.<br>
-                     Fight your opponents in this free-for-all to become the victor.</p>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" id="navnav">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="">Champions</a></li>
+                    <li class="nav-item mr-1"><a class="nav-link" href="">Items</a></li>
+                    <li class="nav-item mr-1"><a class="nav-link" href="">Patch Notes</a></li>               
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="title">
+                <h1>TeamFightTactics</h1>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-info text-center">
+                        <p>Choose your champions and collect those items in Riot Games' League of Legends themed Auto chess.<br>
+                        Fight your opponents in this free-for-all to become the victor.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="row">
-            <div class="col-12 champion-box">
-                <div>
-                    <h2 class="champion">Champions</h2>
+        </section>
+        <section  class="champion-img">
+            <div class="row">
+                <div class="col-12 champion-title">
+                    <div>
+                        <h2 class="champion">Champions</h2>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+            <div class="row no-gutters">
+                <div class="col">
+                    <ul class="list-inline menucontainter">
+                        <li class="col-12 col-md-6 col-lg-6 col-xl-4 list-inline-item">
+                            <div class="champion-box">
+                                <div class="avatar-price">
+                                    <div>
+                                        <img class="ahri-avatar" src="assets/images/avatars/ahri.png" alt="Ahri Avatar">
+                                    </div>
+                                    <div class="origin-class">
+                                        <p class="star-guardian">Star Guardian</p>
+                                        <p class="sourcerer">Soucerer</p>
+                                    </div>
+                                    <div class="price">
+                                        <p>
+                                            2 <img class="coin" src="assets/images/misc/coin.png">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="avatar-description">
+                                    <div class="ability-box">
+                                        <img class="ability" src="assets/images/abilities/ahri-ability.png">
+                                    </div>
+                                    <div class="ability-description-box">
+                                        <h6>Orb of Deception</h6>
+                                        <p class="ability-description">Ahri fires an orb in a line dealing magic damage to enemies it passes through. 
+                                        It then returns to her, dealing true damage to all enemies it passes through.
+                                        </p>
+
+                                        <p class="ability-description">Damage: 175 / 250 / 375</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-6 col-xl-4 list-inline-item">
+                            <div class="champion-box">
+                                <div class="avatar-price">
+                                    <div>
+                                        <img class="ahri-avatar" src="assets/images/avatars/ahri.png" alt="Ahri Avatar">
+                                    </div>
+                                    <div class="origin-class">
+                                        <p class="star-guardian">Star Guardian</p>
+                                        <p class="sourcerer">Soucerer</p>
+                                    </div>
+                                    <div class="price">
+                                        <p>
+                                            2 <img class="coin" src="assets/images/misc/coin.png">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="avatar-description">
+                                    <div class="ability-box">
+                                        <img class="ability" src="assets/images/abilities/ahri-ability.png">
+                                    </div>
+                                    <div class="ability-description-box">
+                                        <h6>Orb of Deception</h6>
+                                        <p class="ability-description">Ahri fires an orb in a line dealing magic damage to enemies it passes through. 
+                                        It then returns to her, dealing true damage to all enemies it passes through.
+                                        </p>
+
+                                        <p class="ability-description">Damage: 175 / 250 / 375</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-6 col-xl-4 list-inline-item">
+                            <div class="champion-box">
+                                <div class="avatar-price">
+                                    <div>
+                                        <img class="ahri-avatar" src="assets/images/avatars/ahri.png" alt="Ahri Avatar">
+                                    </div>
+                                    <div class="origin-class">
+                                        <p class="star-guardian">Star Guardian</p>
+                                        <p class="sourcerer">Soucerer</p>
+                                    </div>
+                                    <div class="price">
+                                        <p>
+                                            2 <img class="coin" src="assets/images/misc/coin.png">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="avatar-description">
+                                    <div class="ability-box">
+                                        <img class="ability" src="assets/images/abilities/ahri-ability.png">
+                                    </div>
+                                    <div class="ability-description-box">
+                                        <h6>Orb of Deception</h6>
+                                        <p class="ability-description">Ahri fires an orb in a line dealing magic damage to enemies it passes through. 
+                                        It then returns to her, dealing true damage to all enemies it passes through.
+                                        </p>
+
+                                        <p class="ability-description">Damage: 175 / 250 / 375</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-12 col-md-6 col-lg-6 col-xl-4 list-inline-item">
+                            <div class="champion-box">
+                                <div class="avatar-price">
+                                    <div>
+                                        <img class="ahri-avatar" src="assets/images/avatars/ahri.png" alt="Ahri Avatar">
+                                    </div>
+                                    <div class="origin-class">
+                                        <p class="star-guardian">Star Guardian</p>
+                                        <p class="sourcerer">Soucerer</p>
+                                    </div>
+                                    <div class="price">
+                                        <p>
+                                            2 <img class="coin" src="assets/images/misc/coin.png">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="avatar-description">
+                                    <div class="ability-box">
+                                        <img class="ability" src="assets/images/abilities/ahri-ability.png">
+                                    </div>
+                                    <div class="ability-description-box">
+                                        <h6>Orb of Deception</h6>
+                                        <p class="ability-description">Ahri fires an orb in a line dealing magic damage to enemies it passes through. 
+                                        It then returns to her, dealing true damage to all enemies it passes through.
+                                        </p>
+
+                                        <p class="ability-description">Damage: 175 / 250 / 375</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
