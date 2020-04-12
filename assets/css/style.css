@@ -94,13 +94,28 @@ section div h1{
 .title-info{
     width: 100%;
     text-align: center;
-    margin: 40px 5px;
+    margin: 40px 5px  250px 0px;
     padding: 0px 10px;
     font-size: 200%;
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     color: #2dc794;
     text-shadow: 2px 3px 5px #000000;
+}
+
+/*--------------------------------------------------------------Champions header--*/
+
+.champion-box{
+    background-color: #f56b6b;
+}
+
+.champion{
+    padding: 5% 0px;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 400%;
+    font-weight: 600;
+    color: #455272;
 }
 /*-----------------------------------------------------Phone media query--*/
 
@@ -144,6 +159,8 @@ section div h1{
         font-size: 100%;
     }
 }
+
+
 /*-----------------------------------------------------laptop media query--*/
 
 @media only screen and (max-width: 1365px) {
