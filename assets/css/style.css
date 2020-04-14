@@ -135,7 +135,7 @@ section div h1{
 
 /*--------------------------------------------------------------Champions descriptions--*/
 
-.list-inline-item{
+#champion-list .list-inline-item{
 
     padding-left: 3px;
     padding-right: 3px;
@@ -283,19 +283,17 @@ section div h1{
 
 /*--------------------------------------------------------------items descriptions--*/
 
-.item-inline{
+#item-list .list-inline-item{
 
-    display: flex;
-
+    max-width: 100%;
+    
 }
+
 
 .item-box{
 
     background-color: #289c28;
-    min-width: 45%;
-    margin-bottom: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 10px 5%;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;

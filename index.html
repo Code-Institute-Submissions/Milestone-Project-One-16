@@ -56,7 +56,7 @@
             </div>
             <div class="row no-gutters">
                 <div class="col">
-                    <ul class="list-inline menucontainter">
+                    <ul class="list-inline menucontainter" id="champion-list">
                         <li class="col-12 col-md-12 col-lg-6 col-xl-4 list-inline-item">
                             <div class="champion-box">
                                 <div class="avatar-price">
@@ -251,141 +251,268 @@
         <!--------------------------------------------------------------Item Section-->
 
         <section class="item-img">
-            <div class="row">
-                <div class="col-12 item-title">
-                    <div>
-                        <h2 class="item">Items</h2>
+            <container>
+                <div class="row">
+                    <div class="col-12 item-title">
+                        <div>
+                            <h2 class="item">Items</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row no-gutters">
-                <div class="col">
-                    <ul class="list-inline menucontainter">
-                        <li class=" col-md-12 col-lg-6 item-inline">
-                            <div class="item-box">
-                                <div class="item-header">
-                                    <div>
-                                        <img class= "item-avatar" src="assets/images/items/bfsword.png" alt="B.F. Sword">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul class="list-inline menucontainter" id="item-list">
+                            <li class=" col-12 list-inline-item">
+                                <div class="item-box">
+                                    <div class="item-header">
+                                        <div>
+                                            <img class= "item-avatar" src="assets/images/items/bfsword.png" alt="B.F. Sword">
+                                        </div>
+                                        <div class="item-box-header">
+                                            <h4>B.F. Sword Combinations</h4>
+                                        </div>
                                     </div>
-                                    <div class="item-box-header">
-                                        <h4>B.F. Sword Combinations</h4>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/bfsword.png" alt="B.F. Sword">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/deathblade.png" alt="deathblade">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Contributing to a kill grants +15 Attack Damage for the remainder of combat. This effect 
+                                            can stack any number of times (starting at 2).
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/chainvest.png" alt="Chain Vest">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/guardianangel.png" alt="Guardian Angel">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Wearer revives with 400 HP
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/giantsbelt.png" alt="Giant's Belt">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/zekesherald.png" alt="Zeke's Herald">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>When combat begins, the wearer and all allies within 2 hexes 
+                                            in the same row gain +18% Attack Speed for the rest of combat.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/needlesslylargerod.png" alt="Needlessly Large Rod">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/hextechgunblade.png" alt="Hextech Gunblade">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Heal for 25% of all damage dealt
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/negatroncloak.png" alt="Negatron Cloak">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/bloodthirster.png" alt="Bloodthirster">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Basic Attacks heal the wearer for 35% of the damage dealt.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/recurvebow.png" alt="Recurve Bow">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/giantslayer.png" alt="Giant Slayer">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Attacks deal an additional 12% enemy current Health as Physical Damage.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/sparringgloves.png" alt="Sparring Gloves">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/infinityedge.png" alt="Infinity Edge">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>100% critical strike damage.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/spatula.png" alt="B.F. Sword">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/bladeoftheruinedking.png" alt="Blade of the Ruined King">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Wearer is also a Blademaster.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/tearofthegoddess.png" alt="Tear of the Godess">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/spearofshojin.png" alt="Spear of Shojin">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>After casting, wearer gains 18% of its max Mana per attack
+                                            </p> 
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/bfsword.png" alt="B.F. Sword">
+                            </li>
+                            <li class=" col-12 list-inline-item ">
+                                <div class="item-box">
+                                    <div class="item-header">
+                                        <div>
+                                            <img class= "item-avatar" src="assets/images/items/chainvest.png" alt="Bramble Vest">
+                                        </div>
+                                        <div class="item-box-header">
+                                            <h4>Bramble Vest Combinations</h4>
+                                        </div>
                                     </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/deathblade.png" alt="deathblade">
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/bfsword.png" alt="B.F. Sword">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/guardianangel.png" alt="Guardian Angel">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Wearer revives with 400 HP
+                                            </p> 
+                                        </div>
                                     </div>
-                                    <div class="combo-description">
-                                        <p>Contributing to a kill grants +15 Attack Damage for the remainder of combat. This effect 
-                                        can stack any number of times (starting at 2).
-                                        </p> 
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/chainvest.png" alt="Chain Vest">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/bramblevest.png" alt="Bramble Vest">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 100 / 140 / 200 magic damage 
+                                            to all nearby enemies (once every 2.5 second maximum). Scales with wearer’s Star Level.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/giantsbelt.png" alt="Giant's Belt">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/redbuff.png" alt="Red Buff">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Gains 27% max hp true damage over 10 seconds on hit in addition to its burn. And reducing healing 
+                                            by 50% for the duration of the burn.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/needlesslylargerod.png" alt="Needlessly Large Rod">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/locketoftheironsolari.png" alt="Locket of the Iron Solari">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Shields allies within two hexes in the same row for 250 / 275 / 350 damage for 8 seconds
+                                            (scales with wearer’s Star Level)
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/negatroncloak.png" alt="Negatron Cloak">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/swordbreaker.png" alt="Sword Breaker">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>25% chance to disarm for 3 seconds
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/recurvebow.png" alt="Recurve Bow">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/titansresolve.png" alt="Titan's Resolve">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>When the wearer takes damage or inflicts a critical hit, they gain a 2% stacking damage bonus. 
+                                            Stacks up to 50 times, at which point the wearer gains 25 Armor and Magic Resistance, and increases in size.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/sparringgloves.png" alt="Sparring Gloves">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/shroudofstillness.png" alt="Shroud of Stillness">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing 
+                                            their max Mana by 40% until they cast.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/spatula.png" alt="B.F. Sword">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/rebelmedal.png" alt="Rebel Medal">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Wearer is also a Rebel.
+                                            </p> 
+                                        </div>
+                                    </div>
+                                    <div class="combo-box">
+                                        <div>
+                                            <img class= "item-avatar-sm item-one" src="assets/images/items/tearofthegoddess.png" alt="Tear of the Godess">
+                                        </div>
+                                        <div>
+                                            <img class= "item-avatar-sm item-two" src="assets/images/items/combined/frozenheart.png" alt="Frozen Heart">
+                                        </div>
+                                        <div class="combo-description">
+                                            <p>Adjacent enemies lose 40% Attack Speed. (Stacking increases the radius of this effect, not the amount of the slow)
+                                            </p> 
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/chainvest.png" alt="Chain Vest">
-                                    </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/guardianangel.png" alt="Guardian Angel">
-                                    </div>
-                                    <div class="combo-description">
-                                        <p>Wearer revives with 400 HP
-                                        </p> 
-                                    </div>
-                                </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/giantsbelt.png" alt="Giant's Belt">
-                                    </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/zekesherald.png" alt="Zeke's Herald">
-                                    </div>
-                                    <div class="combo-description">
-                                        <p>When combat begins, the wearer and all allies within 2 hexes 
-                                        in the same row gain +18% Attack Speed for the rest of combat.
-                                        </p> 
-                                    </div>
-                                </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/needlesslylargerod.png" alt="Needlessly Large Rod">
-                                    </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/hextechgunblade.png" alt="Hextech Gunblade">
-                                    </div>
-                                    <div class="combo-description">
-                                        <p>Heal for 25% of all damage dealt
-                                        </p> 
-                                    </div>
-                                </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/negatroncloak.png" alt="Negatron Cloak">
-                                    </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/bloodthirster.png" alt="Bloodthirster">
-                                    </div>
-                                    <div class="combo-description">
-                                        <p>Basic Attacks heal the wearer for 35% of the damage dealt.
-                                        </p> 
-                                    </div>
-                                </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/recurvebow.png" alt="Recurve Bow">
-                                    </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/giantslayer.png" alt="Giant Slayer">
-                                    </div>
-                                    <div class="combo-description">
-                                        <p>Attacks deal an additional 12% enemy current Health as Physical Damage.
-                                        </p> 
-                                    </div>
-                                </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/sparringgloves.png" alt="Sparring Gloves">
-                                    </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/infinityedge.png" alt="Infinity Edge">
-                                    </div>
-                                    <div class="combo-description">
-                                        <p>100% critical strike damage.
-                                        </p> 
-                                    </div>
-                                </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/spatula.png" alt="B.F. Sword">
-                                    </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/bladeoftheruinedking.png" alt="Blade of the Ruined King">
-                                    </div>
-                                    <div class="combo-description">
-                                        <p>Wearer is also a Blademaster.
-                                        </p> 
-                                    </div>
-                                </div>
-                                <div class="combo-box">
-                                    <div>
-                                        <img class= "item-avatar-sm item-one" src="assets/images/items/tearofthegoddess.png" alt="Tear of the Godess">
-                                    </div>
-                                    <div>
-                                        <img class= "item-avatar-sm item-two" src="assets/images/items/combined/spearofshojin.png" alt="Spear of Shojin">
-                                    </div>
-                                    <div class="combo-description">
-                                        <p>After casting, wearer gains 18% of its max Mana per attack
-                                        </p> 
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </container>
             
         </section>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
