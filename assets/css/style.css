@@ -130,6 +130,7 @@ section div h1{
     font-size: 400%;
     font-weight: 600;
     color: #455272;
+    text-shadow: 2px 3px 5px #000000;
 }
 
 /*--------------------------------------------------------------Champions descriptions--*/
@@ -248,6 +249,117 @@ section div h1{
     color: #493a55
 }
 
+/*----------------------------------------------------------Items background--*/
+.item-img{
+
+    background-image: url("../images/misc/item.jpg");
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+
+}
+
+/*--------------------------------------------------------------Items header--*/
+
+.item-title{
+
+    background-color: #228b22;
+    margin-bottom: 5%;
+    padding: 2.5% 0px;
+}
+
+.item{
+
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 400%;
+    font-weight: 600;
+    color: #455272;
+    text-shadow: 2px 3px 5px #000000
+}
+
+/*--------------------------------------------------------------items descriptions--*/
+
+.item-inline{
+
+    display: flex;
+
+}
+
+.item-box{
+
+    background-color: #289c28;
+    min-width: 45%;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.item-header{
+
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: solid #000000;
+
+}
+
+
+.item-avatar{
+
+    height:60px;
+    width:60px;
+
+}
+
+.item-box-header{
+
+    padding-left: 5px;
+
+}
+
+.item-box-header h4{
+
+    font-weight: 700;
+}
+
+.combo-box{
+
+    display: flex;
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+
+.item-avatar-sm{
+
+    height: 40px;
+    width: 40px;
+}
+
+.item-one{
+
+    margin-right: 30px;
+    line-height: 1.5;
+}
+
+.item-two{
+
+    margin-right: 5px;
+    line-height: 1.5;
+
+}
+
+.combo-description p{
+
+    font-weight: 600;
+
+}
 /*-----------------------------------------------------laptop media query--*/
 
 @media only screen and (max-width: 1365px) {
