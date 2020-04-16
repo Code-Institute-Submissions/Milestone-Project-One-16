@@ -135,19 +135,14 @@ section div h1{
 
 /*--------------------------------------------------------------Champions descriptions--*/
 
-#champion-list .list-inline-item{
 
-    padding-left: 3px;
-    padding-right: 3px;
-    max-width: 32%;
-}
 
 .champion-box{
 
     background-color: #c5628b;
     margin-bottom: 40px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
@@ -236,17 +231,22 @@ section div h1{
     font-weight: 600;
 }
 
+li div p a{
+    margin-left: 40px;
+}
+
 /*--------------------------------------------------------------origin and class colours--*/
 
 .star-guardian{
 
-    color: #ddd348
+    color: #ddd348;
+    text-shadow: 2px 3px 5px #000000
 
 }
 
 .sourcerer{
 
-    color: #493a55
+    color: #300157;
 }
 
 /*----------------------------------------------------------Items background--*/
@@ -293,7 +293,7 @@ section div h1{
 .item-box{
 
     background-color: #289c28;
-    margin: 10px 5%;
+    margin: 10px 5% 40px;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
@@ -358,6 +358,195 @@ section div h1{
     font-weight: 600;
 
 }
+
+/*-----------------------------------------------------patch notes header--*/
+
+.patch-notes-title{
+
+    background-color: #c56f1f;
+    margin-bottom: 5%;
+    padding: 2.5% 0px;
+}
+
+.patch-notes{
+
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 400%;
+    font-weight: 600;
+    color: #455272;
+    text-shadow: 2px 3px 5px #000000
+
+}
+
+/*--------------------------------------------------------------patch notes--*/
+.list-inline-item:not(:last-child){
+
+    margin:0px 0px;
+    
+}
+#patch-notes-list .list-inline-item{
+
+    max-width: 24%;    
+}
+
+#patch-notes-list a{
+
+    text-decoration: none;
+    
+}
+
+
+.patch-notes-box{
+
+    background-color: #c56f1f;
+    margin: 10px 5% 40px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.patch-notes-box h4{
+  
+    font-size: 250%;
+    color: #d33b3b
+}
+
+.patch-notes-box p{
+
+    font-size: 150%;
+    color: #d33b3b;
+    
+}
+
+.patch-notes-text:hover{
+
+    color: #014e12
+}
+
+/*-----------------------------------------------------------------footer--*/
+
+.footer{
+
+    width: 100%;
+    background-color: #484948;
+    position: absolute;
+}
+
+.footer-text{
+
+    padding: 10px 20px;
+
+}
+
+
+/*-----------------------------------------------------champions.html--*/
+
+.champion-page{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-width: 100%;
+    margin-top: 80px;
+
+
+}
+.champion-avatar{
+
+    margin: 0 10px 20px;
+    padding: 57px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.champion-avatar h1{
+
+    margin-top: 20px;
+    font-size: 200%;
+    text-shadow: 1.2px 1.2px 0.9px #000000;
+}
+
+.champion-wrapper{
+
+    width: 110px;
+    height: 110px;
+    border-radius: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 8px 8px 5px rgba(0,0,0,0.9);
+    opacity: 1;
+   
+}
+
+.avatar-img{
+
+    width: 120px;
+    height: 120px;
+    
+}
+
+
+.origin{
+
+    max-width: 25%;
+    float: left;
+    background-color: rgba(11, 139, 11, 0.5)
+
+}
+.origin-header{
+
+    display: flex;
+    border-bottom: solid #000000;
+    margin: 0 10px 10px;
+}
+
+.origin-header p{
+
+    text-shadow: 3px 4px 5px #000000;
+    font-size: 150%;
+    font-weight: 600;
+    margin-left: 15px;
+    color:#6b085e;
+}
+
+.origin-description{
+
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 10px 10px;
+}
+
+.origin-synergies{
+
+    display: flex;
+    margin: 0 0px 10px 10px;
+}
+
+.synergy-avatar{
+
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.class{
+
+    max-width: 25%;
+    float: right;
+    background-color: rgba(11, 139, 11, 0.5)
+
+}
 /*-----------------------------------------------------laptop media query--*/
 
 @media only screen and (max-width: 1365px) {
@@ -367,7 +556,7 @@ section div h1{
         font-size: 85%
     }
 
-.list-inline-item{
+#championlist .list-inline-item{
     max-width: 48%;
 }
 
@@ -380,6 +569,13 @@ section div h1{
     padding-left: 5px;
     margin-right: 45%;
 }
+
+#patch-notes-list .list-inline-item{
+
+    max-width: 32%; 
+
+}
+
 }
 
 /*-----------------------------------------------------tablet media query--*/
@@ -409,8 +605,9 @@ section div h1{
     
 }
 
-.list-inline-item{
-    min-width: 100%;
+
+#championlist .list-inline-item{
+    max-width: 48%;
 }
 
 .origin-class{
@@ -418,6 +615,7 @@ section div h1{
     padding-left: 5px;
     margin-right: 70%;
 }
+
 
 }
 
@@ -451,6 +649,7 @@ section div h1{
     padding-left: 5px;
     margin-right: 45%;
 }
+
 
 }
 
