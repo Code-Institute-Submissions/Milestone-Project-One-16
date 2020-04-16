@@ -444,27 +444,78 @@ li div p a{
 
 /*-----------------------------------------------------champions.html--*/
 
-.champion-page{
+/*-------------------------------------content containers--*/
 
-    justify-content: center;
-    align-items: center;
+.champion-page-one{
+   
     display: flex;
-    min-width: 100%;
-    margin-top: 80px;
-
+    flex-direction: row;
+    max-width: 100%;
+    margin-top: 100px;
 
 }
 .champion-avatar{
-
+    
+    width: 30%;
     margin: 0 10px 20px;
     padding: 57px 0px;
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 
 }
+
+.champion-box-wrapper{
+
+    padding: 30px 3%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.champion-page-two{
+   
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin-top: 50px;
+
+}
+
+.stats-box{
+
+    width: 30%;
+    margin: 0 10px 20px;
+    padding: 30px 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.origin-box{
+
+    width: 35%;
+    display: flex;
+    padding: 30px 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.class-box{
+
+    width: 35%;
+    display:flex;
+    padding: 30px 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+/*----------------------------------------------champions.html content--*/
 
 .champion-avatar h1{
 
@@ -494,12 +545,19 @@ li div p a{
     
 }
 
+.champion-box-champions{
+
+    background-color: #c5628b;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
 
 .origin{
 
-    max-width: 25%;
-    float: left;
-    background-color: rgba(11, 139, 11, 0.5)
+    border-radius: 10px;
+    background-color: #c5628b;
 
 }
 .origin-header{
@@ -511,7 +569,7 @@ li div p a{
 
 .origin-header p{
 
-    text-shadow: 3px 4px 5px #000000;
+    text-shadow: 1px 1px 3px #000000;
     font-size: 150%;
     font-weight: 600;
     margin-left: 15px;
@@ -523,6 +581,7 @@ li div p a{
     font-weight: 600;
     line-height: 20px;
     margin: 0px 10px 10px;
+    
 }
 
 .origin-synergies{
@@ -542,9 +601,8 @@ li div p a{
 
 .class{
 
-    max-width: 25%;
-    float: right;
-    background-color: rgba(11, 139, 11, 0.5)
+    border-radius: 10px;
+    background-color: #c5628b;
 
 }
 /*-----------------------------------------------------laptop media query--*/
@@ -650,6 +708,24 @@ li div p a{
     margin-right: 45%;
 }
 
+
+.champion-page-one{
+
+    flex-direction: column;
+   
+}
+
+.champion-avatar{
+    
+    width: 100%;
+    
+}
+
+.champion-box-wrapper{
+
+    width: 100%;
+
+}
 
 }
 
