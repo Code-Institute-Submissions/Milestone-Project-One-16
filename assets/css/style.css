@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Noto:100,200,300.400,500,600,700|Nanum+Pen+Script|Oswald:100,200,300.400,500,600,700|Lobster|Fredericka+the+Great");
+@import url("https://fonts.googleapis.com/css?family=Noto:100,200,300.400,500,600,700|Nanum+Pen+Script|Oswald:100,200,300.400,500,600,700|Lobster|Fredericka+the+Great|PT+Serif:100,200,300.400,500,600,700");
 
 /*-----------------------------------------------------parallax*/
 .parallax{
@@ -117,7 +117,7 @@ section div h1{
 
 .champion-title{
 
-    background-color: #f56b6b;
+    background-color: #df5d5d;
     margin-bottom: 5%;
     padding: 2.5% 0px;
 }
@@ -135,17 +135,24 @@ section div h1{
 
 /*--------------------------------------------------------------Champions descriptions--*/
 
+#champion-list .list-inline-item{
 
+    padding: 0 0;
+    margin-left: 0;
+    margin-right: 0;
+    align-content: center;
+    justify-content: center;
+    
+}
 
 .champion-box{
 
-    background-color: #c5628b;
+    background-color: #ab43aee6;
     margin-bottom: 40px;
-    margin-left: 3%;
-    margin-right: 3%;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
+    box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
 
 }
 
@@ -165,9 +172,9 @@ section div h1{
 }
 
 .origin-class{
-    width: 120px;
+    
     padding-left: 5px;
-    margin-right: 130px;
+    margin-right: 40%;
 }
 
 .origin-class p{
@@ -262,11 +269,11 @@ li div p a{
 
 }
 
-/*--------------------------------------------------------------Items header--*/
+/*--------------------------------------------------------------------Items header--*/
 
 .item-title{
 
-    background-color: #228b22;
+    background-color: #1f8315;
     margin-bottom: 5%;
     padding: 2.5% 0px;
 }
@@ -283,6 +290,9 @@ li div p a{
 
 /*--------------------------------------------------------------items descriptions--*/
 
+
+/*------------------------------------items containers--*/
+
 #item-list .list-inline-item{
 
     max-width: 100%;
@@ -292,13 +302,17 @@ li div p a{
 
 .item-box{
 
-    background-color: #289c28;
+    background-color: #ab43aee6;
     margin: 10px 5% 40px;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
+    box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
+    
 
 }
+
+
 
 .item-header{
 
@@ -308,12 +322,11 @@ li div p a{
 
 }
 
+.combo-box{
 
-.item-avatar{
-
-    height:60px;
-    width:60px;
-
+    display: flex;
+    margin-top: 20px;
+    margin-bottom:10px;
 }
 
 .item-box-header{
@@ -322,16 +335,24 @@ li div p a{
 
 }
 
+.item-combo{
+
+    display:flex
+
+}
+
+/*------------------------------------items contents--*/
+
+.item-avatar{
+
+    height:60px;
+    width:60px;
+
+}
+
 .item-box-header h4{
 
     font-weight: 700;
-}
-
-.combo-box{
-
-    display: flex;
-    margin-top: 20px;
-    margin-bottom:10px;
 }
 
 .item-avatar-sm{
@@ -359,7 +380,7 @@ li div p a{
 
 }
 
-/*-----------------------------------------------------patch notes header--*/
+/*------------------------------------------------------------patch notes header--*/
 
 .patch-notes-title{
 
@@ -379,12 +400,8 @@ li div p a{
 
 }
 
-/*--------------------------------------------------------------patch notes--*/
-.list-inline-item:not(:last-child){
+/*-------------------------------------------------------------------patch notes--*/
 
-    margin:0px 0px;
-    
-}
 #patch-notes-list .list-inline-item{
 
     max-width: 24%;    
@@ -399,7 +416,7 @@ li div p a{
 
 .patch-notes-box{
 
-    background-color: #c56f1f;
+    background-color: #e69191;
     margin: 10px 5% 40px;
     padding: 10px 10px;
     border-radius: 10px;
@@ -481,40 +498,56 @@ li div p a{
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
+    
 
 }
 
-.stats-box{
+.champion-internal-one{
 
+    display: flex;
+    flex-wrap: wrap;
     width: 30%;
+
+}
+
+.stats-wrapper{
+
+    width: 100%;
     margin: 0 10px 20px;
     padding: 30px 30px;
     justify-content: center;
-    align-items: center;
     display: flex;
+    overflow: hidden;
+
+}
+
+.champion-internal-two{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
 
 }
 
 .origin-box{
 
-    width: 35%;
+    width: 400px;
     display: flex;
     padding: 30px 30px;
     justify-content: center;
-    align-items: center;
 
 }
 
 .class-box{
 
-    width: 35%;
+    width: 400px;
     display:flex;
     padding: 30px 30px;
     justify-content: center;
-    align-items: center;
 
 }
+
 /*----------------------------------------------champions.html content--*/
 
 .champion-avatar h1{
@@ -547,17 +580,61 @@ li div p a{
 
 .champion-box-champions{
 
-    background-color: #c5628b;
+    font-family: "PT+Serif" , sans-serif;
+    background-color: #ab43aee6;
+    margin-bottom: 40px;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
+    box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
 
 }
 
+.avatar-description{
+
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid #000000;
+
+}
+
+.ability-box-champions{
+
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.avatar-description h6{
+
+    font-family: "PT+Serif" , sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+    line-height: 65px;
+    margin-bottom: 0;
+
+}
+
+.stats-box{
+
+    font-family: "PT+Serif" , sans-serif;
+    background-color: #ab43aee6;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
+
+}
 .origin{
 
     border-radius: 10px;
-    background-color: #c5628b;
+    font-family: "PT+Serif" , sans-serif;
+    background-color: #ab43aee6;
+    margin-bottom: 40px;
+    padding: 10px 10px;
+    position: relative;
+    box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
+
 
 }
 .origin-header{
@@ -601,21 +678,33 @@ li div p a{
 
 .class{
 
+    font-family: "PT+Serif" , sans-serif;
+    background-color: #ab43aee6;
+    margin-bottom: 40px;
+    padding: 10px 10px;
     border-radius: 10px;
-    background-color: #c5628b;
+    position: relative;
+    box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
+
 
 }
 /*-----------------------------------------------------laptop media query--*/
 
 @media only screen and (max-width: 1365px) {
 
-    .navbar-nav{
-        margin-left: 5%;
-        font-size: 85%
-    }
+/*-------------------------------------------home page--*/
+
+.navbar-nav{
+
+    margin-left: 5%;
+    font-size: 85%
+
+}
+
+/*-------------------------------------------champions--*/
 
 #championlist .list-inline-item{
-    max-width: 48%;
+    max-width: 100%;
 }
 
 .champion-box{
@@ -628,9 +717,19 @@ li div p a{
     margin-right: 45%;
 }
 
+/*-------------------------------------------patch notes--*/
+
 #patch-notes-list .list-inline-item{
 
     max-width: 32%; 
+
+}
+
+/*----------------------------------------champions.html--*/
+
+.champion-internal-two{
+
+    justify-content: center
 
 }
 
@@ -640,32 +739,38 @@ li div p a{
 
 @media only screen and (max-width: 1024px) {
 
-    #tft{
+/*-------------------------------------------Home Page--*/
+
+#tft{
+
     font-size: 200%;
-    }
 
-    .navbar-nav{
-        margin: 10px 0px;
-    }
-    .navbar-brand{
-        margin-right: 50px;
-    }
-
-    .navbar-nav li{  
-        margin-right: 40px;
-        margin-left: 10px;
-        font-size: 100%;
-    }
-    
-.champion-box{
-    margin-left:2%;
-    margin-right:2%;
-    
 }
 
+.navbar-nav{
+
+    margin: 10px 0px;
+
+}
+
+.navbar-brand{
+
+    margin-right: 50px;
+
+}
+
+.navbar-nav li{  
+
+    margin-right: 40px;
+    margin-left: 10px;
+    font-size: 100%;
+
+}
+
+/*-------------------------------------------champions--*/
 
 #championlist .list-inline-item{
-    max-width: 48%;
+    max-width: 100%;
 }
 
 .origin-class{
@@ -681,25 +786,44 @@ li div p a{
 
 @media only screen and (max-width: 768px) {
 
-    #tft{
+/*-------------------------------------------home page--*/
+
+#tft{
+
     font-size: 150%;
-    }
 
-    .navbar-nav{
-        margin: 10px 0px; 
-    }
+}
 
-    .title{
-        font-size: 90%;
-    }
+.navbar-nav{
 
-    .title-info{
-        margin: 20px 5px;
-    }
+    margin: 10px 0px;
+
+}
+
+.title{
+
+    font-size: 90%;
+
+}
+
+.title-info{
+
+    margin: 20px 5px;
+
+}
+
+/*-------------------------------------------champions--*/
+
+#champion-list .list-inline-item{
+
+    max-width: 100%;
+}
 
 .champion-box{
-    margin-right:  3%;
-    max-width: 100%;
+
+    margin-right: 0;
+    margin-left: 0;
+
 }
 
 .origin-class{
@@ -708,6 +832,14 @@ li div p a{
     margin-right: 45%;
 }
 
+/*-------------------------------------patch notes--*/
+
+#patch-notes-list .list-inline-item{
+
+    min-width: 100%;
+}
+
+/*-------------------------------------champion.html Page--*/
 
 .champion-page-one{
 
@@ -725,6 +857,44 @@ li div p a{
 
     width: 100%;
 
+}
+
+.champion-page-two{
+
+    flex-direction: column;
+
+}
+
+.champion-internal-one{
+
+    width: 100%;
+    justify-content: center
+
+}
+
+.stats-wrapper{
+    
+    width: 100%;
+    
+}
+
+.champion-internal-two{
+
+    width: 100%;
+    justify-content: center
+
+}
+
+.origin-box{
+
+    width: 100%;
+
+}
+
+.class-box{
+    
+    width: 100%;
+    
 }
 
 }
