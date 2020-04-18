@@ -190,6 +190,13 @@ nav a h2 span{
 
 }
 
+.avatar-left{
+
+    width: 90%;
+    display:flex;
+
+}
+
 .avatar{
 
     height:60px;
@@ -200,7 +207,7 @@ nav a h2 span{
 .origin-class{
     
     padding-left: 5px;
-    margin-right: 40%;
+    
 }
 
 .origin-class p{
@@ -218,6 +225,11 @@ nav a h2 span{
     position: absolute;
     float: right;
     
+}
+
+.price{
+
+    width: 10%;
 }
 
 .coin{
