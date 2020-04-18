@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Noto:100,200,300.400,500,600,700|Nanum+Pen+Script|Oswald:100,200,300.400,500,600,700|Lobster|Fredericka+the+Great|PT+Serif:100,200,300.400,500,600,700");
 
-/*-----------------------------------------------------parallax*/
+/*-------------------------PARALLAX----------------------------*/
+
 .parallax{
     background-image: url("../images/misc/hero.jpg");
     background-repeat: no-repeat;
@@ -12,23 +13,29 @@
     overflow-x: hidden;
 } 
 
-/*---------------------------------- Navbar-*/
+/*--------------------------NAVBAR---------------------------*/
+
 .navbar {
+
     margin-bottom: 0;
     width: 100%;
     border: 0;
     background-color: #33dfa5;
     top: 0px;
     left: 0px;
-    position: absolute;
+    position: fixed;
     z-index: 1;
+
 }
 
 .navbar .navbar-toggler {
+
     border: 0;
+
 }
 
 .navbar-brand{
+
     font-family: 'Lobster', sans-serif; 
     font-size: 300%;
     margin-left: 10px;
@@ -37,16 +44,15 @@
     
 }
 
-#tft{
+#logo-caps{
+
     font-weight: 600;
     font-size: 210%;
     height: 70px;
     color: #455272;
     text-shadow: 1px 1px 2px #000000;
     line-height: 75px;
-    
-   
-    
+ 
 }
 
 nav a h2 span{
@@ -81,8 +87,10 @@ nav a h2 span{
     font-size: 130%;
 }
 
-/*---------------------------------------------------------------title----*/
-section div h1{
+/*----------------------------TITLE---------------------------------------*/
+
+.title{
+
     width: 100%;
     text-align: center;  
     margin: 200px 0px 0px;
@@ -90,9 +98,11 @@ section div h1{
     font-family: 'Lobster', sans-serif;
     color: #455272;
     text-shadow: 2px 3px 5px #000000;
+
 }
 
 .title-info{
+
     width: 100%;
     text-align: center;
     margin: 40px 5px  250px 0px;
@@ -103,8 +113,12 @@ section div h1{
     color: #2dc794;
     text-shadow: 2px 3px 5px #000000;
 }
-/*----------------------------------------------------------champions background--*/
+
+/*---------------------------CHAMPIONS BACKGROUND--------------------------------*/
+
+
 .champion-img{
+
     background-image: url("../images/misc/champions.jpg");
     background-repeat: no-repeat;
     min-height: 100%;
@@ -112,8 +126,10 @@ section div h1{
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
+
 }
-/*--------------------------------------------------------------Champions header--*/
+
+/*---------------------------CHAMPIONS HEADER-----------------------------------*/
 
 .champion-title{
 
@@ -133,7 +149,7 @@ section div h1{
     text-shadow: 2px 3px 5px #000000;
 }
 
-/*--------------------------------------------------------------Champions descriptions--*/
+/*----------------------------CHAMPIONS DESCRIPTIONS------------------------------------*/
 
 #champion-list .list-inline-item{
 
@@ -242,7 +258,7 @@ li div p a{
     margin-left: 40px;
 }
 
-/*--------------------------------------------------------------origin and class colours--*/
+/*--------------------------ORIGIN AND CLASS COLORS------------------------------------*/
 
 .star-guardian{
 
@@ -256,7 +272,8 @@ li div p a{
     color: #300157;
 }
 
-/*----------------------------------------------------------Items background--*/
+/*-----------------------------ITEMS BACKGROUND-------------------------------*/
+
 .item-img{
 
     background-image: url("../images/misc/item.jpg");
@@ -269,7 +286,7 @@ li div p a{
 
 }
 
-/*--------------------------------------------------------------------Items header--*/
+/*----------------------------------ITEMS HEADER-----------------------------------*/
 
 .item-title{
 
@@ -288,10 +305,10 @@ li div p a{
     text-shadow: 2px 3px 5px #000000
 }
 
-/*--------------------------------------------------------------items descriptions--*/
+/*------------------------------ITEMS DESCRIPTIONS----------------------------------*/
 
 
-/*------------------------------------items containers--*/
+/*---------------------ITEMS CONTAINERS-----------------*/
 
 #item-list .list-inline-item{
 
@@ -341,7 +358,7 @@ li div p a{
 
 }
 
-/*------------------------------------items contents--*/
+/*--------------------ITEMS CONTENTS------------------*/
 
 .item-avatar{
 
@@ -380,7 +397,7 @@ li div p a{
 
 }
 
-/*------------------------------------------------------------patch notes header--*/
+/*----------------------------PATCH NOTES HEADER----------------------------------*/
 
 .patch-notes-title{
 
@@ -400,7 +417,7 @@ li div p a{
 
 }
 
-/*-------------------------------------------------------------------patch notes--*/
+/*----------------------------PATCH NOTES-----------------------------------------*/
 
 #patch-notes-list .list-inline-item{
 
@@ -443,12 +460,12 @@ li div p a{
     color: #014e12
 }
 
-/*-----------------------------------------------------------------footer--*/
+/*----------------------------FOOTER---------------------------------------*/
 
 .footer{
 
     width: 100%;
-    background-color: #484948;
+    background-color: #33dfa5;
     position: absolute;
 }
 
@@ -459,9 +476,9 @@ li div p a{
 }
 
 
-/*-----------------------------------------------------champions.html--*/
+/*-------------------------CHAMPIONS.HTML------------------------------*/
 
-/*-------------------------------------content containers--*/
+/*-------------CONTENT CONTAINERS--------------------------*/
 
 .champion-page-one{
    
@@ -548,7 +565,7 @@ li div p a{
 
 }
 
-/*----------------------------------------------champions.html content--*/
+/*--------------------CHAMPIONS.HTML CONTENTS----------------------------*/
 
 .champion-avatar h1{
 
@@ -688,11 +705,11 @@ li div p a{
 
 
 }
-/*-----------------------------------------------------laptop media query--*/
+/*--------------------LAPTOP MEDIA QUERY-----------------------------------*/
 
 @media only screen and (max-width: 1365px) {
 
-/*-------------------------------------------home page--*/
+/*-----------------HOME PAGE------------------*/
 
 .navbar-nav{
 
@@ -701,7 +718,7 @@ li div p a{
 
 }
 
-/*-------------------------------------------champions--*/
+/*-----------------CHAMPIONS------------------*/
 
 #championlist .list-inline-item{
     max-width: 100%;
@@ -715,9 +732,10 @@ li div p a{
 
     padding-left: 5px;
     margin-right: 45%;
+
 }
 
-/*-------------------------------------------patch notes--*/
+/*----------------PATCH NOTES-----------------------------*/
 
 #patch-notes-list .list-inline-item{
 
@@ -725,7 +743,7 @@ li div p a{
 
 }
 
-/*----------------------------------------champions.html--*/
+/*----------------CHAMPIONS.HTML--------------------------*/
 
 .champion-internal-two{
 
@@ -735,13 +753,13 @@ li div p a{
 
 }
 
-/*-----------------------------------------------------tablet media query--*/
+/*---------------------TABLET MEDIA QUERY----------------------------------*/
 
 @media only screen and (max-width: 1024px) {
 
-/*-------------------------------------------Home Page--*/
+/*-----------------HOME PAGE-----------------*/
 
-#tft{
+#logo-caps{
 
     font-size: 200%;
 
@@ -767,7 +785,7 @@ li div p a{
 
 }
 
-/*-------------------------------------------champions--*/
+/*----------------CHAMPIONS------------------*/
 
 #championlist .list-inline-item{
     max-width: 100%;
@@ -782,13 +800,13 @@ li div p a{
 
 }
 
-/*-----------------------------------------------------Phone media query--*/
+/*--------------------PHONE MEDIA QUERY-----------------------------------*/
 
 @media only screen and (max-width: 768px) {
 
-/*-------------------------------------------home page--*/
+/*---------------HOME PAGE---------------*/
 
-#tft{
+#logo-caps{
 
     font-size: 150%;
 
@@ -800,11 +818,6 @@ li div p a{
 
 }
 
-.title{
-
-    font-size: 90%;
-
-}
 
 .title-info{
 
@@ -812,7 +825,7 @@ li div p a{
 
 }
 
-/*-------------------------------------------champions--*/
+/*--------------CHAMPIONS---------------*/
 
 #champion-list .list-inline-item{
 
@@ -832,14 +845,14 @@ li div p a{
     margin-right: 45%;
 }
 
-/*-------------------------------------patch notes--*/
+/*-------------PATCH NOTES---------------*/
 
 #patch-notes-list .list-inline-item{
 
     min-width: 100%;
 }
 
-/*-------------------------------------champion.html Page--*/
+/*-------------CHAMPIONS.HTML PAGE--------------*/
 
 .champion-page-one{
 
