@@ -153,10 +153,15 @@ nav a h2 span{
 
 /*----------------------------CHAMPIONS DESCRIPTIONS------------------------------------*/
 
+#champion-list{
+
+    padding: 0 0;
+}
+
 #champion-list .list-inline-item{
 
-    display: flex;
-    padding: 0 0;
+    display:flex;
+    padding: 0 10px;
     margin-left: 0;
     margin-right: 0;
     align-content: center;
@@ -168,6 +173,7 @@ nav a h2 span{
 .champion-box{
 
     background-color: #ab43aee6;
+    width: 90%;
     margin-bottom: 40px;
     padding: 10px 10px;
     border-radius: 10px;
@@ -736,9 +742,6 @@ li div p a{
     max-width: 100%;
 }
 
-.champion-box{
-    margin-left: 10%;
-}
 
 .origin-class{
 
