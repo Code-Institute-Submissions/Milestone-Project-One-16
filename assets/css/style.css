@@ -3,6 +3,7 @@
 /*-------------------------PARALLAX----------------------------*/
 
 .parallax{
+
     background-image: url("../images/misc/hero.jpg");
     background-repeat: no-repeat;
     min-height: 100%;
@@ -11,6 +12,7 @@
     background-position-y: -80px;
     background-attachment: fixed;
     overflow-x: hidden;
+
 } 
 
 /*--------------------------NAVBAR---------------------------*/
@@ -465,6 +467,7 @@ li div p a{
 .footer{
 
     width: 100%;
+    margin-top: 20px;
     background-color: #33dfa5;
     position: absolute;
 }
@@ -488,10 +491,11 @@ li div p a{
     margin-top: 100px;
 
 }
+
 .champion-avatar{
     
     width: 30%;
-    margin: 0 10px 20px;
+    margin: 0 0;
     padding: 57px 0px;
     justify-content: center;
     align-items: center;
@@ -502,7 +506,7 @@ li div p a{
 
 .champion-box-wrapper{
 
-    padding: 30px 3%;
+    padding: 30px 3% 0 0;
     width: 60%;
     display: flex;
     justify-content: center;
@@ -515,7 +519,7 @@ li div p a{
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     
 
 }
@@ -549,19 +553,17 @@ li div p a{
 
 .origin-box{
 
-    width: 400px;
+    width: 45%;
     display: flex;
-    padding: 30px 30px;
-    justify-content: center;
+    padding: 30px 30px 0 0;
 
 }
 
 .class-box{
 
-    width: 400px;
+    width: 45%;
     display:flex;
-    padding: 30px 30px;
-    justify-content: center;
+    padding: 30px 30px 0 0;
 
 }
 
@@ -599,7 +601,6 @@ li div p a{
 
     font-family: "PT+Serif" , sans-serif;
     background-color: #ab43aee6;
-    margin-bottom: 40px;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
@@ -635,9 +636,9 @@ li div p a{
 
     font-family: "PT+Serif" , sans-serif;
     background-color: #ab43aee6;
-    margin-bottom: 40px;
     padding: 10px 10px;
     border-radius: 10px;
+    width: 100%;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
 
@@ -647,7 +648,6 @@ li div p a{
     border-radius: 10px;
     font-family: "PT+Serif" , sans-serif;
     background-color: #ab43aee6;
-    margin-bottom: 40px;
     padding: 10px 10px;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
@@ -674,7 +674,7 @@ li div p a{
 
     font-weight: 600;
     line-height: 20px;
-    margin: 0px 10px 10px;
+    margin: 10px 10px; 
     
 }
 
@@ -682,6 +682,7 @@ li div p a{
 
     display: flex;
     margin: 0 0px 10px 10px;
+
 }
 
 .synergy-avatar{
@@ -743,14 +744,28 @@ li div p a{
 
 }
 
-/*----------------CHAMPIONS.HTML--------------------------*/
+/*---------------CHAMPIONS.HTML--------------------------*/
 
-.champion-internal-two{
+.origin-box{
 
-    justify-content: center
+    width: 100%;
 
 }
 
+.origin{
+
+    width:80%;
+}
+
+.class-box{
+
+    width: 100%;
+
+}
+
+.class{
+
+    width:80%;
 }
 
 /*---------------------TABLET MEDIA QUERY----------------------------------*/
@@ -798,6 +813,34 @@ li div p a{
 }
 
 
+/*----------------CHAMPIONS.HTML--------------------------*/
+
+.champion-internal-two{
+
+    flex-direction: column;
+
+}
+
+.origin-box{
+
+    width: 45%;
+
+}
+
+.origin{
+
+    width:100%;
+}
+
+.class-box{
+
+    width: 45%;
+
+}
+
+.class{
+
+    width:100%;
 }
 
 /*--------------------PHONE MEDIA QUERY-----------------------------------*/
@@ -869,6 +912,20 @@ li div p a{
 .champion-box-wrapper{
 
     width: 100%;
+    justify-content: center;
+    padding: 0 0;
+
+}
+
+.champion-box-champions{
+
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.avatar-description h6{
+
+    font-size: 150%;
 
 }
 
@@ -887,31 +944,36 @@ li div p a{
 
 .stats-wrapper{
     
-    width: 100%;
+    width: 90%;
+    margin: 0 0;
+    padding: 30px 0;
     
 }
 
 .champion-internal-two{
 
     width: 100%;
-    justify-content: center
+    justify-content: center;
+    align-items: center;
 
 }
 
 .origin-box{
 
-    width: 100%;
+    width: 90%;
+    padding: 10px 0;
 
 }
 
 .class-box{
     
     width: 100%;
-    
+    padding: 10px 0;
+    justify-content: center;
 }
 
+.class{
+
+    width:90%;
 }
-
-
-
-
+}
