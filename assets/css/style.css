@@ -155,11 +155,13 @@ nav a h2 span{
 
 #champion-list .list-inline-item{
 
+    display: flex;
     padding: 0 0;
     margin-left: 0;
     margin-right: 0;
     align-content: center;
     justify-content: center;
+    
     
 }
 
@@ -633,9 +635,17 @@ li div p a{
 
 }
 
+.stats-header{
+
+    padding-bottom: 10px;
+    border-bottom: solid #000000;
+
+}
+
 .stats-box{
 
     font-family: "PT+Serif" , sans-serif;
+    font-weight: 600;
     background-color: #ab43aee6;
     padding: 10px 10px;
     border-radius: 10px;
@@ -674,7 +684,7 @@ li div p a{
 .origin-description{
 
     font-weight: 600;
-    line-height: 20px;
+    line-height: 25px;
     margin: 10px 10px; 
     
 }
@@ -825,6 +835,7 @@ li div p a{
 .origin-box{
 
     width: 45%;
+    margin-bottom: 20px;
 
 }
 
@@ -836,6 +847,7 @@ li div p a{
 .class-box{
 
     width: 45%;
+    margin-bottom: 0;
 
 }
 
@@ -977,4 +989,5 @@ li div p a{
 
     width:90%;
 }
+
 }
