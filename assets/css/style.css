@@ -207,7 +207,7 @@ nav a h2 span{
 .origin-class{
     
     padding-left: 5px;
-    
+
 }
 
 .origin-class p{
@@ -276,8 +276,19 @@ nav a h2 span{
     font-weight: 600;
 }
 
-li div p a{
-    margin-left: 40px;
+.champions-link{
+
+    font-size: 90%;
+    line-height: 20px;
+    font-weight: 600;
+    width: 90%;
+    text-align: center;
+
+}
+
+.champions-link a{
+
+    color: #e7d5d5
 }
 
 /*--------------------------ORIGIN AND CLASS COLORS------------------------------------*/
