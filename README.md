@@ -56,4 +56,11 @@ website would contain. This means that any repition of templates should be avoid
 
 ### **Structure**
 
-Quick navigation is essential to this project. All of the 
+Quick navigation is essential to this project. All of the sections are on the same page
+and the navigation bar sticks to the top of the screen. Only by clicking on the "read more"
+link in the champions section will take the user away from the main page. This means only 
+the most essential information is displayed. 
+
+### **Skeleton**
+
+Using figma the following wireframes were made:
