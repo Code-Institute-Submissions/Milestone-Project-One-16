@@ -91,11 +91,20 @@ nav a h2 span{
 
 /*----------------------------TITLE---------------------------------------*/
 
-.title{
+.title-box{
 
     width: 100%;
-    text-align: center;  
+    justify-content: center;
+    padding: 0 10px;
+    
+
+}
+
+.title{
+
     margin: 200px 0px 0px;
+    position: relative;
+    text-align: center;  
     font-size: 400%;
     font-family: 'Lobster', sans-serif;
     color: #455272;
@@ -128,27 +137,46 @@ nav a h2 span{
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
-
+    border-bottom: solid 10px #1f8315;
+    border-top: solid 10px #df5d5d;
 }
 
 /*---------------------------CHAMPIONS HEADER-----------------------------------*/
 
+#champions-link{
+
+    height:40px;
+
+}
+
+.header-box{
+
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .champion-title{
 
     background-color: #df5d5d;
+    padding: 20px 0px;
     margin-bottom: 5%;
-    padding: 2.5% 0px;
+    margin-top: 40px;
+    border-radius: 50px;
+    align-content: center;
+
 }
 
 .champion{
 
-    
+    position: relative;
+    margin: 0 30px;
     text-align: center;
     font-family: 'Lobster', sans-serif;
     font-size: 400%;
     font-weight: 600;
     color: #455272;
-    text-shadow: 2px 3px 5px #000000;
+    text-shadow: 2px 3px 5px #000000
+
 }
 
 /*----------------------------CHAMPIONS DESCRIPTIONS------------------------------------*/
@@ -291,6 +319,11 @@ nav a h2 span{
     color: #e7d5d5
 }
 
+#item-link{
+
+    height: 40px
+}
+
 /*--------------------------ORIGIN AND CLASS COLORS------------------------------------*/
 
 .star-guardian{
@@ -316,6 +349,7 @@ nav a h2 span{
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
+    border-bottom: solid 10px #c56f1f;
 
 }
 
@@ -324,18 +358,25 @@ nav a h2 span{
 .item-title{
 
     background-color: #1f8315;
+    padding: 20px 0px;
     margin-bottom: 5%;
-    padding: 2.5% 0px;
+    margin-top: 40px;
+    border-radius: 50px;
+    align-content: center;
+
 }
 
 .item{
 
+    position: relative;
+    margin: 0 30px;
     text-align: center;
     font-family: 'Lobster', sans-serif;
     font-size: 400%;
     font-weight: 600;
     color: #455272;
     text-shadow: 2px 3px 5px #000000
+
 }
 
 /*------------------------------ITEMS DESCRIPTIONS----------------------------------*/
@@ -435,12 +476,18 @@ nav a h2 span{
 .patch-notes-title{
 
     background-color: #c56f1f;
+    padding: 20px 0px;
     margin-bottom: 5%;
-    padding: 2.5% 0px;
+    margin-top: 40px;
+    border-radius: 50px;
+    align-content: center;
+
 }
 
 .patch-notes{
 
+    position: relative;
+    margin: 0 30px;
     text-align: center;
     font-family: 'Lobster', sans-serif;
     font-size: 400%;
@@ -466,26 +513,27 @@ nav a h2 span{
 
 .patch-notes-box{
 
-    background-color: #e69191;
+    background-color: #ab43aee6;
     margin: 10px 5% 40px;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
     text-align: center;
+    box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
     
 }
 
 .patch-notes-box h4{
   
     font-size: 250%;
-    color: #d33b3b
+    color: #212529;
+
 }
 
 .patch-notes-box p{
 
     font-size: 150%;
-    color: #d33b3b;
-    
+    color: #212529;
 }
 
 .patch-notes-text:hover{
@@ -900,6 +948,11 @@ nav a h2 span{
 
 }
 
+.title{
+
+    font-size: 350%;
+
+}
 
 .title-info{
 
