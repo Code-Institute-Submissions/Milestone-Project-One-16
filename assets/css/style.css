@@ -15,6 +15,16 @@
 
 } 
 
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+  background-color: rgba(233, 233, 233, 0.2);
+  overflow: hidden;
+}
 /*--------------------------NAVBAR---------------------------*/
 
 .navbar {
@@ -91,6 +101,11 @@ nav a h2 span{
 
 /*----------------------------TITLE---------------------------------------*/
 
+.home-section{
+
+    position: relative;
+}
+
 .title-box{
 
     width: 100%;
@@ -102,13 +117,13 @@ nav a h2 span{
 
 .title{
 
-    margin: 200px 0px 0px;
+    padding: 200px 0px 0px;
     position: relative;
     text-align: center;  
     font-size: 400%;
     font-family: 'Lobster', sans-serif;
     color: #455272;
-    text-shadow: 2px 3px 5px #000000;
+    text-shadow: 1px 1px 1px #000000;
 
 }
 
@@ -122,7 +137,7 @@ nav a h2 span{
     font-family: 'Oswald', sans-serif;
     font-weight: 500;
     color: #2dc794;
-    text-shadow: 2px 3px 5px #000000;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 /*---------------------------CHAMPIONS BACKGROUND--------------------------------*/
@@ -142,6 +157,12 @@ nav a h2 span{
 }
 
 /*---------------------------CHAMPIONS HEADER-----------------------------------*/
+
+.champion-section{
+
+    position: relative;
+
+}
 
 #champions-link{
 
@@ -175,7 +196,7 @@ nav a h2 span{
     font-size: 400%;
     font-weight: 600;
     color: #455272;
-    text-shadow: 2px 3px 5px #000000
+    text-shadow: 2px 2px 2px #000000
 
 }
 
@@ -329,7 +350,7 @@ nav a h2 span{
 .star-guardian{
 
     color: #ddd348;
-    text-shadow: 2px 3px 5px #000000
+    text-shadow: 2px 2px 2px #000000
 
 }
 
@@ -355,6 +376,12 @@ nav a h2 span{
 
 /*----------------------------------ITEMS HEADER-----------------------------------*/
 
+.item-section{
+
+    position:relative;
+
+}
+
 .item-title{
 
     background-color: #1f8315;
@@ -375,7 +402,7 @@ nav a h2 span{
     font-size: 400%;
     font-weight: 600;
     color: #455272;
-    text-shadow: 2px 3px 5px #000000
+    text-shadow: 2px 2px 2px #000000
 
 }
 
@@ -473,6 +500,12 @@ nav a h2 span{
 
 /*----------------------------PATCH NOTES HEADER----------------------------------*/
 
+.patch-section{
+
+    position: relative;
+
+}
+
 .patch-notes-title{
 
     background-color: #c56f1f;
@@ -493,7 +526,7 @@ nav a h2 span{
     font-size: 400%;
     font-weight: 600;
     color: #455272;
-    text-shadow: 2px 3px 5px #000000
+    text-shadow: 2px 2px 2px #000000
 
 }
 
@@ -561,12 +594,18 @@ nav a h2 span{
 
 /*-------------CONTENT CONTAINERS--------------------------*/
 
+.info-section{
+
+    position: relative;
+
+}
+
 .champion-page-one{
    
     display: flex;
     flex-direction: row;
     max-width: 100%;
-    margin-top: 100px;
+    padding-top: 100px;
 
 }
 
@@ -649,11 +688,17 @@ nav a h2 span{
 
 /*--------------------CHAMPIONS.HTML CONTENTS----------------------------*/
 
-.champion-avatar h1{
+.champion-name{
 
     margin-top: 20px;
-    font-size: 200%;
-    text-shadow: 1.2px 1.2px 0.9px #000000;
+    font-size: 300%;
+    position: relative;
+    margin: 0 30px;
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 600;
+    color: #ddd348;
+    text-shadow: 2px 2px 2px #000000
 }
 
 .champion-wrapper{
@@ -666,7 +711,7 @@ nav a h2 span{
     display: flex;
     overflow: hidden;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.9);
-    opacity: 1;
+    margin-bottom: 10px;
    
 }
 
@@ -950,7 +995,7 @@ nav a h2 span{
 
 .title{
 
-    font-size: 350%;
+    font-size: 300%;
 
 }
 
