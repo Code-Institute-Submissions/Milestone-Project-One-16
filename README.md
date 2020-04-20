@@ -116,3 +116,26 @@ The site is responsivess over phone, tablet, laptop and desktop screen sizes wit
 where appropriate. The site has been tested on Mozilla Firefox and Google Chrome and works as intended.
 The site was tested on a Windows laptop and Android phone. The colour styles appear more vibrant on the 
 phone but all site functions work as intended. 
+
+## **Deployment**
+
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update 
+automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, 
+the landing page must be named index.html.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting the link into 
+your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+## **Credits**
+
+### **Content**
+
+All content on this site were written by me.
+
+### **Media**
+
+All photos were taken from tftactics.gg
+
+    The Parallax Scrolling effect was found on w3schools.com link (by mentor advice)
+    Fixing the card-decks responsiveness link
+    The following site link was used as an insparation for the navigation bar and blue "call to action" box.

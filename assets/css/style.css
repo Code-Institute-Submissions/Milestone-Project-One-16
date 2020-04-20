@@ -8,10 +8,13 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    background-position-x: right -450px;
-    background-position-y: -80px;
+    
     background-attachment: fixed;
     overflow: hidden;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 
 } 
 
