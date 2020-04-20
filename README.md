@@ -1,10 +1,12 @@
 # **TinFoT (TeamFight Tactics info)**
 
+
 ## **Milestone project 1: User-Centric Frontend Development - Code Institute**
 
 A website which explains different aspects of the game "Teamfight Tactics".
 It is aimed as a free-use project for both new an experienced players looking
 for a more convenient overview of information about the game.
+
 
 ## UX
 
@@ -64,3 +66,53 @@ the most essential information is displayed.
 ### **Skeleton**
 
 Using figma the following wireframes were made:
+
+https://github.com/OGMyst/Milestone-Project-One/blob/master/mockups/Desktop.pdf
+
+https://github.com/OGMyst/Milestone-Project-One/blob/master/mockups/Phone.pdf
+
+It was decided that the "Origin" and "Class" sections should be removed as the information
+they contained could be put into the champion section. In addition, the patch notes now link 
+to the official patch notes on the Teamfight Tactics website.
+
+### **Surface**
+
+The light colours, in particular the heavy use of blue, brightens the website making it more
+appealing and differentiates the website from similar sites. The "Lobster" font was chosen
+to be used for the headers for its curly and thick style. This adds to the more friendly, 
+less formal website that users are accustomed to.
+
+### **Technologies**
+
+    HTML - To create a basic site
+    CSS - To create a nice style and to stand-out
+    Bootstrap - To improve responsiveness
+    Figma - To create a wireframe
+
+
+## Features
+
+The site uses a parallax scrolling effect in CSS which adds an extra layer and gives a smoother
+scrolling experience. For phone screen sizes the navbar changes into a collapsible burger icon 
+freeing up space. The main page contains all the essential information and the navbar links to
+each section on the page. This eliminates load times for everything apart from the champion 
+specific page, allowing the user to find the relevant piece of information as quickly as possible.
+
+### Features Left to Impliment
+
+Should the site gain access to a database it would open the possibility to include in-depth
+champion information pages for all the champions in the game. On the main page this would mean 
+all eighty three champions would be present. To prevent the main champion section being very 
+long, the desciptions would be put inside a box which only appears when clicked on. The thirteen
+items and their combinations would be collapsed into dropdown boxes to maintain accessibility.
+
+
+##Testing
+
+All links work both within the site and to the external patch notes. All "Read More" links lead 
+to the same champion page. 
+
+The site is responsivess over phone, tablet, laptop and desktop screen sizes with custom layouts
+where appropriate. The site has been tested on Mozilla Firefox and Google Chrome and works as intended.
+The site was tested on a Windows laptop and Android phone. The colour styles appear more vibrant on the 
+phone but all site functions work as intended. 
