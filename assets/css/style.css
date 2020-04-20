@@ -149,14 +149,16 @@ nav a h2 span{
 .champion-img{
 
     background-image: url("../images/misc/champions.jpg");
-    
-    background-position:center; 
-    background-attachment:fixed; 
-    -o-background-size:cover; 
-    -moz-background-size:cover; 
-    -webkit-background-size:cover; 
-    background-size:cover; 
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
     border-bottom: solid 10px #1f8315;
     border-top: solid 10px #df5d5d;
 }
