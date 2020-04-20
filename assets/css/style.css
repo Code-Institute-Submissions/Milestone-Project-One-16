@@ -7,22 +7,12 @@
     background-image: url("../images/misc/hero.jpg");
     height: 100%;
     width: 100%;
-<<<<<<< HEAD
     background-position: center;
     background-position-y: -100px;
     background-position-x: -100px;
     background-attachment: fixed;
     overflow: hidden;
     
-=======
-   background-position:center; 
-background-attachment:fixed; 
--o-background-size:cover; 
--moz-background-size:cover; 
--webkit-background-size:cover; 
-background-size:cover; 
-background-repeat:no-repeat;
->>>>>>> 94289fb9081e22a6aa7ce86cd0541868fd53ce12
 
 } 
 
@@ -157,9 +147,8 @@ nav a h2 span{
 .champion-img{
 
     background-image: url("../images/misc/champions.jpg");
-<<<<<<< HEAD
     background-repeat: no-repeat;
-   height: 100%;
+    height: 100%;
     width: 100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -168,17 +157,6 @@ nav a h2 span{
     background-position: center;
     background-attachment: fixed;
     overflow-x: hidden;
-=======
-    height: 100%;
-    width: 100%;
-    background-position:center; 
-    background-attachment:fixed; 
-    -o-background-size:cover; 
-    -moz-background-size:cover; 
-    -webkit-background-size:cover; 
-    background-size:cover; 
-    background-repeat:no-repeat;
->>>>>>> 94289fb9081e22a6aa7ce86cd0541868fd53ce12
     border-bottom: solid 10px #1f8315;
     border-top: solid 10px #df5d5d;
 }
@@ -391,23 +369,12 @@ nav a h2 span{
 .item-img{
 
     background-image: url("../images/misc/item.jpg");
-   
+    height: 100%;
     width: 100%;
-<<<<<<< HEAD
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
-=======
-    height:100%;
-    background-position:center; 
-background-attachment:fixed; 
--o-background-size:cover; 
--moz-background-size:cover; 
--webkit-background-size:cover; 
-background-size:cover; 
-background-repeat:no-repeat;
->>>>>>> 94289fb9081e22a6aa7ce86cd0541868fd53ce12
     border-bottom: solid 10px #c56f1f;
 
 }
