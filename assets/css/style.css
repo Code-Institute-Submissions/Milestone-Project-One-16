@@ -953,26 +953,25 @@ nav a h2 span{
 
 .origin-box{
 
-    width: 45%;
+    
     margin-bottom: 20px;
 
 }
 
 .origin{
 
-    width:100%;
+    width:85%;
 }
 
 .class-box{
 
-    width: 45%;
     margin-bottom: 0;
 
 }
 
 .class{
 
-    width:100%;
+    width: 85%;
 }
 
 /*--------------------PHONE MEDIA QUERY-----------------------------------*/
@@ -1107,11 +1106,12 @@ nav a h2 span{
     width: 100%;
     padding: 10px 0;
     justify-content: center;
+
 }
 
 .class{
 
     width:90%;
-}
 
+}
 }
