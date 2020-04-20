@@ -370,15 +370,15 @@ nav a h2 span{
 .item-img{
 
     background-image: url("../images/misc/item.jpg");
-    background-repeat: no-repeat;
-  
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow-x: hidden;
+    
+    background-position:center; 
+    background-attachment:scroll; 
+    -o-background-size:cover; 
+    -moz-background-size:cover; 
+    -webkit-background-size:cover; 
+    background-size:cover; 
+    background-repeat:no-repeat;
+
     border-bottom: solid 10px #c56f1f;
 
 }
