@@ -42,7 +42,7 @@ not the whole game's lore (**Content**)
 so i want to find the information I'm looking for quickly so I can get back
 to actually playing the game. (**Accessibility**)
 
->-Nancy Oliveira
+> - Nancy Oliveira
 
 ### **Strategy**
 
