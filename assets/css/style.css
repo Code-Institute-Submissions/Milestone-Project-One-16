@@ -371,8 +371,7 @@ nav a h2 span{
 
     background-image: url("../images/misc/item.jpg");
     background-repeat: no-repeat;
-    width: 100%;
-    height:100%;
+  
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
