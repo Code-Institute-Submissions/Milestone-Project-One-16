@@ -107,15 +107,24 @@ long, the desciptions would be put inside a box which only appears when clicked 
 items and their combinations would be collapsed into dropdown boxes to maintain accessibility.
 
 
-##Testing
+## Testing
 
 All links work both within the site and to the external patch notes. All "Read More" links lead 
 to the same champion page. 
 
-The site is responsivess over phone, tablet, laptop and desktop screen sizes with custom layouts
-where appropriate. The site has been tested on Mozilla Firefox and Google Chrome and works as intended.
-The site was tested on a Windows laptop and Android phone. The colour styles appear more vibrant on the 
-phone but all site functions work as intended. 
+The site is responsive over different screen sizes with custom layouts where appropriate. The site 
+has been tested on Mozilla Firefox, Google Chrome and safari and works as intended.The site was 
+tested on an android phone, Iphone, tablet, Ipad, laptop, Macbook and desktop. The colour styles 
+appear more vibrant on different screens but all site functions work as intended. 
+
+### **Bugs**
+
+The following tests have been used to ensure proper site functionality:
+
+* GTmetrix: To test on website loading times
+* W3C HTML Validator: This validator checks the markup validity of Web documents in HTML.
+* W3C CSS Validator: This validator checks the markup validity of Web documents in CSS.
+
 
 ## **Deployment**
 
@@ -134,8 +143,10 @@ All content on this site were written by me.
 
 ### **Media**
 
-All photos were taken from tftactics.gg
+All photos were taken from tftactics.gg and wallpapercave.com
 
-    The Parallax Scrolling effect was found on w3schools.com link (by mentor advice)
-    Fixing the card-decks responsiveness link
-    The following site link was used as an insparation for the navigation bar and blue "call to action" box.
+## **Acknowledgements**
+The Parallax Scrolling effect was found on w3schools.com link (by mentor advice)
+
+[tftactics.gg](https://tftactics.gg/item-builder) This site gave inspiration for
+the layout of the item section.
