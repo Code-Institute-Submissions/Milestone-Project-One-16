@@ -6,7 +6,7 @@
 
     background-image: url("../images/misc/hero.jpg");
    background-position:center; 
-background-attachment:scroll; 
+background-attachment:fixed; 
 -o-background-size:cover; 
 -moz-background-size:cover; 
 -webkit-background-size:cover; 
@@ -147,7 +147,7 @@ nav a h2 span{
 
     background-image: url("../images/misc/champions.jpg");
     background-position:center; 
-    background-attachment:scroll; 
+    background-attachment:fixed; 
     -o-background-size:cover; 
     -moz-background-size:cover; 
     -webkit-background-size:cover; 
