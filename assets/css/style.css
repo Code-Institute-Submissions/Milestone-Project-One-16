@@ -678,6 +678,7 @@ nav a h2 span{
     border-radius: 10px;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
+    width: 87%;
 }
 /*--------------------LAPTOP MEDIA QUERY-----------------------------------*/
 
@@ -875,14 +876,19 @@ nav a h2 span{
 }
 
 .origin-box{
-    width: 90%;
+    width: 100%;
     padding: 10px 0;
+    justify-content: center;
 }
 
 .class-box{
     width: 100%;
     padding: 10px 0;
     justify-content: center;
+}
+
+.origin{
+    width: 90%;
 }
 
 .class{
