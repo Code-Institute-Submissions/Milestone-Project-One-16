@@ -3,7 +3,6 @@
 /*-------------------------PARALLAX----------------------------*/
 
 .parallax{
-
     background-image: url("../images/misc/hero.jpg");
     height: 100%;
     width: 100%;
@@ -12,8 +11,6 @@
     background-position-x: -100px;
     background-attachment: fixed;
     overflow: hidden;
-    
-
 } 
 
 .opaque-overlay {
@@ -26,10 +23,10 @@
   background-color: rgba(233, 233, 233, 0.2);
   overflow: hidden;
 }
+
 /*--------------------------NAVBAR---------------------------*/
 
 .navbar {
-
     margin-bottom: 0;
     width: 100%;
     border: 0;
@@ -38,34 +35,27 @@
     left: 0px;
     position: fixed;  
     z-index: 1;
-
 }
 
 .navbar .navbar-toggler {
-
     border: 0;
-
 }
 
 .navbar-brand{
-
     font-family: 'Lobster', sans-serif; 
     font-size: 300%;
     margin-left: 10px;
     margin-right: 100px;
     padding: 0;  
-    
 }
 
 #logo-caps{
-
     font-weight: 600;
     font-size: 210%;
     height: 70px;
     color: #455272;
     text-shadow: 1px 1px 2px #000000;
     line-height: 75px;
- 
 }
 
 nav a h2 span{
@@ -93,8 +83,7 @@ nav a h2 span{
     color: #106d2c;
 }
 
-.nav-item{
-    
+.nav-item{   
     line-height: 55px;
     letter-spacing:2px;
     font-size: 130%;
@@ -103,21 +92,16 @@ nav a h2 span{
 /*----------------------------TITLE---------------------------------------*/
 
 .home-section{
-
     position: relative;
 }
 
 .title-box{
-
     width: 100%;
     justify-content: center;
     padding: 0 10px;
-    
-
 }
 
 .title{
-
     padding: 200px 0px 0px;
     position: relative;
     text-align: center;  
@@ -125,11 +109,9 @@ nav a h2 span{
     font-family: 'Lobster', sans-serif;
     color: #455272;
     text-shadow: 1px 1px 1px #000000;
-
 }
 
 .title-info{
-
     width: 100%;
     text-align: center;
     margin: 40px 5px  250px 0px;
@@ -145,7 +127,6 @@ nav a h2 span{
 
 
 .champion-img{
-
     background-image: url("../images/misc/champions.jpg");
     background-repeat: no-repeat;
     height: 100%;
@@ -164,36 +145,27 @@ nav a h2 span{
 /*---------------------------CHAMPIONS HEADER-----------------------------------*/
 
 .champion-section{
-
     position: relative;
-
 }
 
 #champions-link{
-
     height:40px;
-
 }
 
 .header-box{
-
     justify-content: center;
-    margin-top: 20px;
 }
 
 .champion-title{
-
     background-color: #df5d5d;
     padding: 20px 0px;
     margin-bottom: 5%;
-    margin-top: 40px;
+    margin-top: 60px;
     border-radius: 50px;
     align-content: center;
-
 }
 
 .champion{
-
     position: relative;
     margin: 0 30px;
     text-align: center;
@@ -202,30 +174,24 @@ nav a h2 span{
     font-weight: 600;
     color: #455272;
     text-shadow: 2px 2px 2px #000000
-
 }
 
 /*----------------------------CHAMPIONS DESCRIPTIONS------------------------------------*/
 
 #champion-list{
-
     padding: 0 0;
 }
 
 #champion-list .list-inline-item{
-
     display:flex;
     padding: 0 10px;
     margin-left: 0;
     margin-right: 0;
     align-content: center;
     justify-content: center;
-    
-    
 }
 
 .champion-box{
-
     background-color: #ab43aee6;
     width: 90%;
     margin-bottom: 40px;
@@ -233,39 +199,30 @@ nav a h2 span{
     border-radius: 10px;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
-
 }
 
 .avatar-price{
-
     display: flex;
     padding-bottom: 5px;
     border-bottom: solid #000000;
-
 }
 
 .avatar-left{
-
     width: 90%;
     display:flex;
-
 }
 
 .avatar{
-
     height:60px;
     width:60px;
-    
 }
 
 .origin-class{
-    
     padding-left: 5px;
 
 }
 
 .origin-class p{
-
     margin-bottom: 2px;
     font-size: 110%;
     font-weight: 700;
@@ -273,21 +230,17 @@ nav a h2 span{
 
 
 .price p{
-
     font-weight: 600;
     font-size: 110%;
     position: absolute;
     float: right;
-    
 }
 
 .price{
-
     width: 10%;
 }
 
 .coin{
-
     width: 30px;
     height: 30px;
     position: absolute;
@@ -295,79 +248,63 @@ nav a h2 span{
 }
 
 .avatar-description{
-
     display: flex;
 }
 
 .ability-box{
-
     margin-top: 10px;
-    
 }
 
 .ability-description-box{
-
     margin-left: 5px;
     margin-top: 5px;
-
 }
 
 .ability-description-box h6{
-
     font-weight: 700;
 }
 
 .ability{
-
     width: 60px;
     height: 60px;
 }
 
 .ability-description{
-
     font-size: 90%;
     line-height: 20px;
     font-weight: 600;
 }
 
 .champions-link{
-
     font-size: 90%;
     line-height: 20px;
     font-weight: 600;
     width: 90%;
     text-align: center;
-
 }
 
 .champions-link a{
-
     color: #e7d5d5
 }
 
 #item-link{
-
     height: 40px
 }
 
 /*--------------------------ORIGIN AND CLASS COLORS------------------------------------*/
 
 .star-guardian{
-
     color: #ddd348;
     text-shadow: 2px 2px 2px #000000
-
 }
 
 .sourcerer{
-
     color: #300157;
 }
 
 /*-----------------------------ITEMS BACKGROUND-------------------------------*/
 
 .item-img{
-
     background-image: url("../images/misc/item.jpg");
     height: 100%;
     width: 100%;
@@ -376,30 +313,24 @@ nav a h2 span{
     background-attachment: fixed;
     overflow-x: hidden;
     border-bottom: solid 10px #c56f1f;
-
 }
 
 /*----------------------------------ITEMS HEADER-----------------------------------*/
 
 .item-section{
-
     position:relative;
-
 }
 
 .item-title{
-
     background-color: #1f8315;
     padding: 20px 0px;
     margin-bottom: 5%;
-    margin-top: 40px;
+    margin-top: 60px;
     border-radius: 50px;
     align-content: center;
-
 }
 
 .item{
-
     position: relative;
     margin: 0 30px;
     text-align: center;
@@ -408,7 +339,6 @@ nav a h2 span{
     font-weight: 600;
     color: #455272;
     text-shadow: 2px 2px 2px #000000
-
 }
 
 /*------------------------------ITEMS DESCRIPTIONS----------------------------------*/
@@ -417,113 +347,87 @@ nav a h2 span{
 /*---------------------ITEMS CONTAINERS-----------------*/
 
 #item-list .list-inline-item{
-
     max-width: 100%;
-    
 }
 
 
 .item-box{
-
     background-color: #ab43aee6;
     margin: 10px 5% 40px;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
-    
-
 }
 
 
 
 .item-header{
-
     display: flex;
     padding-bottom: 5px;
     border-bottom: solid #000000;
-
 }
 
 .combo-box{
-
     display: flex;
     margin-top: 20px;
     margin-bottom:10px;
 }
 
 .item-box-header{
-
     padding-left: 5px;
-
 }
 
 .item-combo{
-
     display:flex
-
 }
 
 /*--------------------ITEMS CONTENTS------------------*/
 
 .item-avatar{
-
     height:60px;
     width:60px;
-
 }
 
 .item-box-header h4{
-
     font-weight: 700;
 }
 
 .item-avatar-sm{
-
     height: 40px;
     width: 40px;
 }
 
 .item-one{
-
     margin-right: 30px;
     line-height: 1.5;
 }
 
 .item-two{
-
     margin-right: 5px;
     line-height: 1.5;
-
 }
 
 .combo-description p{
-
     font-weight: 600;
-
 }
 
 /*----------------------------PATCH NOTES HEADER----------------------------------*/
 
 .patch-section{
-
     position: relative;
-
 }
 
 .patch-notes-title{
-
     background-color: #c56f1f;
     padding: 20px 0px;
     margin-bottom: 5%;
-    margin-top: 40px;
+    margin-top: 60px;
     border-radius: 50px;
     align-content: center;
-
 }
 
 .patch-notes{
-
     position: relative;
     margin: 0 30px;
     text-align: center;
@@ -532,25 +436,20 @@ nav a h2 span{
     font-weight: 600;
     color: #455272;
     text-shadow: 2px 2px 2px #000000
-
 }
 
 /*----------------------------PATCH NOTES-----------------------------------------*/
 
 #patch-notes-list .list-inline-item{
-
     max-width: 24%;    
 }
 
 #patch-notes-list a{
-
     text-decoration: none;
-    
 }
 
 
 .patch-notes-box{
-
     background-color: #ab43aee6;
     margin: 10px 5% 40px;
     padding: 10px 10px;
@@ -558,40 +457,32 @@ nav a h2 span{
     position: relative;
     text-align: center;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
-    
 }
 
 .patch-notes-box h4{
-  
     font-size: 250%;
     color: #212529;
-
 }
 
 .patch-notes-box p{
-
     font-size: 150%;
     color: #212529;
 }
 
 .patch-notes-text:hover{
-
     color: #014e12
 }
 
 /*----------------------------FOOTER---------------------------------------*/
 
 .footer{
-
     width: 100%;
     background-color: #33dfa5;
     position: absolute;
 }
 
 .footer-text{
-
     padding: 10px 20px;
-
 }
 
 
@@ -600,22 +491,17 @@ nav a h2 span{
 /*-------------CONTENT CONTAINERS--------------------------*/
 
 .info-section{
-
     position: relative;
-
 }
 
 .champion-page-one{
-   
     display: flex;
     flex-direction: row;
     max-width: 100%;
     padding-top: 100px;
-
 }
 
 .champion-avatar{
-    
     width: 30%;
     margin: 0 0;
     padding: 57px 0px;
@@ -623,78 +509,61 @@ nav a h2 span{
     align-items: center;
     display: flex;
     flex-direction: column; 
-
 }
 
 .champion-box-wrapper{
-
     padding: 30px 3% 0 0;
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .champion-page-two{
-   
     display: flex;
     flex-direction: row;
     max-width: 100%;
     margin-top: 10px;
-    
-
 }
 
 .champion-internal-one{
-
     display: flex;
     flex-wrap: wrap;
     width: 30%;
-
 }
 
 .stats-wrapper{
-
     width: 100%;
     margin: 0 10px 20px;
     padding: 30px 30px;
     justify-content: center;
     display: flex;
     overflow: hidden;
-
 }
 
 .champion-internal-two{
-
     display: flex;
     flex-wrap: wrap;
     width: 70%;
-
 }
 
 .origin-box{
-
     width: 45%;
     display: flex;
     margin-bottom: 50px;
     padding: 30px 30px 0 0;
-
 }
 
 .class-box{
-
     margin-bottom: 10px;
     width: 45%;
     display:flex;
     padding: 30px 30px 0 0;
-
 }
 
 /*--------------------CHAMPIONS.HTML CONTENTS----------------------------*/
 
 .champion-name{
-
     margin-top: 20px;
     font-size: 300%;
     position: relative;
@@ -707,7 +576,6 @@ nav a h2 span{
 }
 
 .champion-wrapper{
-
     width: 110px;
     height: 110px;
     border-radius: 150px;
@@ -717,60 +585,47 @@ nav a h2 span{
     overflow: hidden;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.9);
     margin-bottom: 10px;
-   
 }
 
 .avatar-img{
-
     width: 120px;
     height: 120px;
-    
 }
 
 .champion-box-champions{
-
     font-family: "PT+Serif" , sans-serif;
     background-color: #ab43aee6;
     padding: 10px 10px;
     border-radius: 10px;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
-
 }
 
 .avatar-description{
-
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: solid #000000;
-
 }
 
 .ability-box-champions{
-
     margin-top: 0;
     margin-right: 10px;
 }
 
 .avatar-description h6{
-
     font-family: "PT+Serif" , sans-serif;
     font-size: 200%;
     font-weight: 600;
     line-height: 65px;
     margin-bottom: 0;
-
 }
 
 .stats-header{
-
     padding-bottom: 10px;
     border-bottom: solid #000000;
-
 }
 
 .stats-box{
-
     font-family: "PT+Serif" , sans-serif;
     font-weight: 600;
     background-color: #ab43aee6;
@@ -779,28 +634,22 @@ nav a h2 span{
     width: 100%;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
-
 }
 .origin{
-
     border-radius: 10px;
     font-family: "PT+Serif" , sans-serif;
     background-color: #ab43aee6;
     padding: 10px 10px;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
-
-
 }
 .origin-header{
-
     display: flex;
     border-bottom: solid #000000;
     margin: 0 10px 10px;
 }
 
 .origin-header p{
-
     text-shadow: 1px 1px 3px #000000;
     font-size: 150%;
     font-weight: 600;
@@ -809,22 +658,17 @@ nav a h2 span{
 }
 
 .origin-description{
-
     font-weight: 600;
     line-height: 25px;
     margin: 10px 10px; 
-    
 }
 
 .origin-synergies{
-
     display: flex;
     margin: 0 0px 10px 10px;
-
 }
 
 .synergy-avatar{
-
     width: 35px;
     height: 35px;
     border-radius: 35px;
@@ -833,7 +677,6 @@ nav a h2 span{
 }
 
 .class{
-
     font-family: "PT+Serif" , sans-serif;
     background-color: #ab43aee6;
     margin-bottom: 40px;
@@ -841,8 +684,6 @@ nav a h2 span{
     border-radius: 10px;
     position: relative;
     box-shadow: 8px 8px 5px rgba(0,0,0,0.7);
-
-
 }
 /*--------------------LAPTOP MEDIA QUERY-----------------------------------*/
 
@@ -851,10 +692,8 @@ nav a h2 span{
 /*-----------------HOME PAGE------------------*/
 
 .navbar-nav{
-
     margin-left: 5%;
     font-size: 85%
-
 }
 
 /*-----------------CHAMPIONS------------------*/
@@ -865,44 +704,34 @@ nav a h2 span{
 
 
 .origin-class{
-
     padding-left: 5px;
     margin-right: 45%;
-
 }
 
 /*----------------PATCH NOTES-----------------------------*/
 
 #patch-notes-list .list-inline-item{
-
     max-width: 32%; 
-
 }
 
 /*---------------CHAMPIONS.HTML--------------------------*/
 
 .origin-box{
-
     width: 100%;
-
 }
 
 .origin{
-
     width:80%;
 }
 
 .class-box{
-
     width: 100%;
-
 }
 
 .class{
-
     width:80%;
 }
-
+}
 /*---------------------TABLET MEDIA QUERY----------------------------------*/
 
 @media only screen and (max-width: 1024px) {
@@ -910,29 +739,21 @@ nav a h2 span{
 /*-----------------HOME PAGE-----------------*/
 
 #logo-caps{
-
     font-size: 200%;
-
 }
 
 .navbar-nav{
-
     margin: 10px 0px;
-
 }
 
 .navbar-brand{
-
     margin-right: 50px;
-
 }
 
 .navbar-nav li{  
-
     margin-right: 40px;
     margin-left: 10px;
     font-size: 100%;
-
 }
 
 /*----------------CHAMPIONS------------------*/
@@ -942,7 +763,6 @@ nav a h2 span{
 }
 
 .origin-class{
-
     padding-left: 5px;
     margin-right: 70%;
 }
@@ -951,34 +771,25 @@ nav a h2 span{
 /*----------------CHAMPIONS.HTML--------------------------*/
 
 .champion-internal-two{
-
     flex-direction: column;
-
 }
 
 .origin-box{
-
-    
     margin-bottom: 20px;
-
 }
 
 .origin{
-
     width:85%;
 }
 
 .class-box{
-
     margin-bottom: 0;
-
 }
 
 .class{
-
     width: 85%;
 }
-
+}
 /*--------------------PHONE MEDIA QUERY-----------------------------------*/
 
 @media only screen and (max-width: 768px) {
@@ -986,45 +797,33 @@ nav a h2 span{
 /*---------------HOME PAGE---------------*/
 
 #logo-caps{
-
     font-size: 150%;
-
 }
 
 .navbar-nav{
-
     margin: 10px 0px;
-
 }
 
 .title{
-
     font-size: 300%;
-
 }
 
 .title-info{
-
     margin: 20px 5px;
-
 }
 
 /*--------------CHAMPIONS---------------*/
 
 #champion-list .list-inline-item{
-
     max-width: 100%;
 }
 
 .champion-box{
-
     margin-right: 0;
     margin-left: 0;
-
 }
 
 .origin-class{
-
     padding-left: 5px;
     margin-right: 45%;
 }
@@ -1032,91 +831,67 @@ nav a h2 span{
 /*-------------PATCH NOTES---------------*/
 
 #patch-notes-list .list-inline-item{
-
     min-width: 100%;
 }
 
 /*-------------CHAMPIONS.HTML PAGE--------------*/
 
 .champion-page-one{
-
     flex-direction: column;
-   
 }
 
 .champion-avatar{
-    
     width: 100%;
-    
 }
 
 .champion-box-wrapper{
-
     width: 100%;
     justify-content: center;
     padding: 0 0;
-
 }
 
 .champion-box-champions{
-
     width: 90%;
     margin-bottom: 10px;
 }
 
 .avatar-description h6{
-
     font-size: 150%;
-
 }
 
 .champion-page-two{
-
     flex-direction: column;
-
 }
 
 .champion-internal-one{
-
     width: 100%;
     justify-content: center
-
 }
 
 .stats-wrapper{
-    
     width: 90%;
     margin: 0 0;
     padding: 30px 0;
-    
 }
 
 .champion-internal-two{
-
     width: 100%;
     justify-content: center;
     align-items: center;
-
 }
 
 .origin-box{
-
     width: 90%;
     padding: 10px 0;
-
 }
 
 .class-box{
-    
     width: 100%;
     padding: 10px 0;
     justify-content: center;
-
 }
 
 .class{
-
     width:90%;
-
 }
 }
