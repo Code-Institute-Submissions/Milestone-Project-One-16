@@ -157,11 +157,9 @@ nav a h2 span{
 }
 
 .champion-title{
-    background-color: #df5d5d;
     padding: 20px 0px;
     margin-bottom: 5%;
     margin-top: 60px;
-    border-radius: 50px;
     align-content: center;
 }
 
@@ -173,7 +171,7 @@ nav a h2 span{
     font-size: 400%;
     font-weight: 600;
     color: #455272;
-    text-shadow: 2px 2px 2px #000000
+    text-shadow: 1px 1px 1px #000000
 }
 
 /*----------------------------CHAMPIONS DESCRIPTIONS------------------------------------*/
@@ -322,11 +320,9 @@ nav a h2 span{
 }
 
 .item-title{
-    background-color: #1f8315;
     padding: 20px 0px;
     margin-bottom: 5%;
     margin-top: 60px;
-    border-radius: 50px;
     align-content: center;
 }
 
@@ -338,7 +334,7 @@ nav a h2 span{
     font-size: 400%;
     font-weight: 600;
     color: #455272;
-    text-shadow: 2px 2px 2px #000000
+    text-shadow: 1px 1px 1px #000000
 }
 
 /*------------------------------ITEMS DESCRIPTIONS----------------------------------*/
@@ -419,11 +415,9 @@ nav a h2 span{
 }
 
 .patch-notes-title{
-    background-color: #c56f1f;
     padding: 20px 0px;
     margin-bottom: 5%;
     margin-top: 60px;
-    border-radius: 50px;
     align-content: center;
 }
 
@@ -435,7 +429,7 @@ nav a h2 span{
     font-size: 400%;
     font-weight: 600;
     color: #455272;
-    text-shadow: 2px 2px 2px #000000
+    text-shadow: 1px 1px 1px #000000
 }
 
 /*----------------------------PATCH NOTES-----------------------------------------*/
