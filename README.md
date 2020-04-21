@@ -119,6 +119,17 @@ appear more vibrant on different screens but all site functions work as intended
 
 ### **Bugs**
 
+#### **Champion Descriptions Layout**
+
+Issue with the champion descriptions displaying in a column instead of two per row. Mentor advised
+to change the elements from "li" to "div". An unnecessary "col" class was found which was interfering
+with the functionality of the bootstrap code.
+
+##### **Overlay**
+
+Overlay was not reaching the top of the the item background image. Issue found to be the margin of 
+the child element. Moved the margin to the child of that element.
+
 The following tests have been used to ensure proper site functionality:
 
 * GTmetrix: To test on website loading times
