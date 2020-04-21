@@ -130,6 +130,11 @@ with the functionality of the bootstrap code.
 Overlay was not reaching the top of the the item background image. Issue found to be the margin of 
 the child element. Moved the margin to the child of that element.
 
+##### **Iphone and Ipad 
+
+Background images display as a zoomed in image for Ipad and Iphone. Unable to find fix after searching 
+stack overflow or after asking for help from other students and my mentor. Problem doesn't appear for Macbook.
+
 The following tests have been used to ensure proper site functionality:
 
 * GTmetrix: To test on website loading times
